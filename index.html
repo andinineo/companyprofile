@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dapur Nona Timur - Cita Rasa Khas Indonesia Timur</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Nunito', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Merriweather', serif;
+    }
+  </style>
+</head>
+<body class="bg-yellow-50 text-gray-800">
+
+<!-- Header -->
+<header class="bg-yellow-800 text-white p-6 shadow-md sticky top-0 z-50">
+  <div class="container mx-auto flex justify-between items-center">
+    <div class="flex items-center space-x-4">
+      <img src="Logo.png" alt="Logo Dapur Nona Timur" class="h-14 w-14 rounded-full">
+      <h1 class="text-3xl font-bold">Dapur Nona Timur</h1>
+    </div>
+    <nav class="space-x-4 text-lg">
+      <a href="#home" class="hover:text-yellow-300">Beranda</a>
+      <a href="#about" class="hover:text-yellow-300">Tentang</a>
+      <a href="#menu" class="hover:text-yellow-300">Menu</a>
+      <a href="#gallery" class="hover:text-yellow-300">Galeri</a>
+      <a href="#testimonial" class="hover:text-yellow-300">Testimoni</a>
+      <a href="#contact" class="hover:text-yellow-300">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero -->
+<section id="home" class="relative bg-cover bg-center h-screen text-white flex items-center justify-center" style="background-image: url('https://source.unsplash.com/1920x1080/?indonesian-food');">
+  <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+  <div class="relative z-10 p-10 text-center">
+    <h1 class="text-5xl md:text-6xl font-extrabold mb-3 drop-shadow-md">Dapur Nona Timur</h1>
+    <h2 class="text-3xl md:text-4xl font-semibold mb-3">Cita Rasa Khas Indonesia Timur</h2>
+    <p class="text-lg md:text-xl max-w-2xl mx-auto">Masakan autentik dari Timur Indonesia – Tradisional, Lezat, dan Penuh Rempah-rempah khas yang memikat selera.</p>
+    <a href="#menu" class="mt-6 inline-block bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-all">Lihat Menu</a>
+  </div>
+</section>
+
+<!-- Tentang -->
+<section id="about" class="py-20 bg-white text-center">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-yellow-800 mb-6">Tentang Kami</h2>
+    <p class="max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed">
+      Kami adalah pelopor cita rasa khas Indonesia Timur. Mengusung nilai budaya, kehangatan keluarga, dan kenikmatan kuliner,
+      <strong>Dapur Nona Timur</strong> hadir dengan sajian tradisional dari Papua, Nusa Tenggara Timur, dan Maluku yang diracik dengan bumbu khas dan cinta.
+    </p>
+  </div>
+</section>
+
+<!-- Menu -->
+<section id="menu" class="py-20 bg-yellow-50">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-yellow-800 text-center mb-12">Menu Andalan Kami</h2>
+    <div class="grid md:grid-cols-3 gap-10">
+      <!-- Se’i Sapi -->
+      <div class="bg-white border rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+        <img src="Menu 3.jpeg" alt="Se’i Sapi" class="rounded-xl mb-4 w-full h-48 object-cover">
+        <h3 class="text-xl font-bold">Se’i Sapi <span class="ml-2 text-sm text-white bg-red-600 px-2 py-1 rounded-full">Best Seller</span></h3>
+        <p class="text-gray-600 mt-1">Daging asap khas NTT, disajikan dengan sambal lu’at.</p>
+        <span class="text-yellow-700 font-semibold block mt-2">Rp 35.000</span>
+      </div>
+      <!-- Papeda -->
+      <div class="bg-white border rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+        <img src="Menu 6.jpeg" alt="Papeda" class="rounded-xl mb-4 w-full h-48 object-cover">
+        <h3 class="text-xl font-bold">Papeda & Ikan Kuah Kuning</h3>
+        <p class="text-gray-600 mt-1">Sagu lembut berpadu kuah ikan rempah khas Papua.</p>
+        <span class="text-yellow-700 font-semibold block mt-2">Rp 30.000</span>
+      </div>
+      <!-- Jagung Bose -->
+      <div class="bg-white border rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+        <img src="Menu 5.jpeg" alt="Jagung Bose" class="rounded-xl mb-4 w-full h-48 object-cover">
+        <h3 class="text-xl font-bold">Jagung Bose & Abon Ikan</h3>
+        <p class="text-gray-600 mt-1">Jagung santan & abon ikan gurih, kaya rasa.</p>
+        <span class="text-yellow-700 font-semibold block mt-2">Rp 25.000</span>
+      </div>
+      <!-- Kue Lontar Mini -->
+      <div class="bg-white border rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+        <img src="Menu 2.jpeg" alt="Kue Lontar" class="rounded-xl mb-4 w-full h-48 object-cover">
+        <h3 class="text-xl font-bold">Kue Lontar Mini</h3>
+        <p class="text-gray-600 mt-1">Pai susu khas Papua dengan tekstur lembut dan rasa manis pas.</p>
+        <span class="text-yellow-700 font-semibold block mt-2">Rp 10.000</span>
+      </div>
+      <!-- Sambal Lu'at -->
+      <div class="bg-white border rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+        <img src="Menu 1.jpeg" alt="Sambal Lu’at" class="rounded-xl mb-4 w-full h-48 object-cover">
+        <h3 class="text-xl font-bold">Sambal Lu’at</h3>
+        <p class="text-gray-600 mt-1">Sambal khas NTT pedas segar dengan aroma jeruk dan kemangi.</p>
+        <span class="text-yellow-700 font-semibold block mt-2">Rp 8.000</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimoni -->
+<section id="testimonial" class="py-20 bg-white">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-yellow-800 text-center mb-12">Apa Kata Pelanggan Kami</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-yellow-100 p-6 rounded-xl shadow-md border">
+        <p class="text-gray-700 italic mb-4">“Se’i sapi dan sambal lu’atnya benar-benar mengingatkan saya pada kampung halaman.”</p>
+        <div class="font-bold text-yellow-800">Maria Lestari</div>
+        <div class="text-sm text-gray-500">Pelanggan Tetap</div>
+      </div>
+      <div class="bg-yellow-100 p-6 rounded-xl shadow-md border">
+        <p class="text-gray-700 italic mb-4">“Papeda dan kuah ikannya lezat, cocok untuk keluarga!”</p>
+        <div class="font-bold text-yellow-800">Andi Nugroho</div>
+        <div class="text-sm text-gray-500">Food Blogger</div>
+      </div>
+      <div class="bg-yellow-100 p-6 rounded-xl shadow-md border">
+        <p class="text-gray-700 italic mb-4">“Jagung bose dan abon ikannya gurih dan penuh rempah!”</p>
+        <div class="font-bold text-yellow-800">Veronica S.</div>
+        <div class="text-sm text-gray-500">Pecinta Kuliner</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Kontak -->
+<section id="contact" class="py-20 bg-yellow-900 text-white text-center">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-6">Hubungi Kami</h2>
+    <p class="mb-2">📞 WhatsApp: <a href="https://wa.me/628123456789" class="underline">+62 812-3456-789</a></p>
+    <p class="mb-2">📷 Instagram: <a href="https://instagram.com/dapurnonatimur" class="underline">@dapurnonatimur</a></p>
+    <p>📍 Jl. Kenangan No. 10, Kupang, Nusa Tenggara Timur</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black text-white text-center py-6">
+  <p>&copy; 2025 Dapur Nona Timur. Seluruh hak cipta dilindungi.</p>
+  <div class="mt-2 space-x-4">
+    <a href="https://instagram.com/dapurnonatimur" target="_blank" class="hover:text-yellow-400"><i class="fab fa-instagram"></i></a>
+    <a href="https://wa.me/628123456789" target="_blank" class="hover:text-yellow-400"><i class="fab fa-whatsapp"></i></a>
+  </div>
+</footer>
+
+</body>
+</html>
